@@ -1,0 +1,32 @@
+Nashiha Ahmed
+CS 102-1
+David Davenport
+17/ 12/ 2015
+
+Hangman Error Log
+
+Start time: 08.30
+
+1. In Constructor, Group needed to create allLetters, usedLetters, secretWord, and knownSoFar as String Buffers. They also needed to use .append() method for knownSoFar. I changed them so that they did that.
+2. Hangman class needed essential comments, such as //properties.
+3. Secret Word Chooser's comments should be separated into two lines. 
+4. Most groups codes' were not indented properly. There were other whitespace errors. 
+5. Hangman class was written with properties that have the word list as an ArrayList. Secret Word Chooser uses String array. I changed the properties such that it used a String array for Secret Word chooser word list.
+6. Some names in Secret Word Chooser were too long, such as randomNumberForChoosingAWord. I changed that to randomNo.
+7. Piece 3a has no comments and explanations for what is happening in the code. I chose 3b because it is more thorough. 3B had some whitespace problems as well.
+8. Piece 3b has no parameter type in formal parameter. I added the parameter type “char.”
+9. I removed piece01 from package to make compiling easier. Because of the package, there were some errors in compiling.
+10. I renamed piece01 file as Hang and piece05 file as Hangman because class Hang and Hangman is public, so should be declared in a file named Hang.java and Hangman.java
+11. Hangman class method getNumOfIncorrectTries() and main method getnumberOfIncorrectTries()) did not have the same name. I changed the one in the main method to getNumOfIncorrectTries().
+12. I made chooseSecretWord a method by removing it from class it was in (chooseSecretWord class).
+13. In tryThis 03bpiece, following error was given: Error: char cannot be dereferenced. This is because char is a primitive type and so methods cannot be called from it. I simply removed the statement to make it uppercased. 
+14. The code has successfully compiled.
+15. More whitespace errors in main method were fixed
+16. Tested the code, IT WORKS!
+17. Hang.java and Hangman.java were put in single project HangmanHW.java
+18. Some Print statements were added to main method to make it more user friendly.
+
+End time: 09.51
+
+
+Overall Comments: Generally, there were no major errors when putting the code together. It was mostly that each piece had subtle differences in naming certain things, like methods. I fixed mostly comments and made the code more organized. To improve this mistake, I think that the groups can communicate with each other to use common names and whether to use array/ arrayList, as well. Other than that, combining the pieces were no problem at all.

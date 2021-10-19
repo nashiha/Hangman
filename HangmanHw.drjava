@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20140826-r5761">
+  <project autorefresh="false" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="Hang.java" package="" timestamp="17-Feb-2015 09:47:46">
+        <select from="886" to="886"/>
+        <scroll column="331" row="0"/>
+      </file>
+      <file name="Hangman.java" package="" timestamp="17-Feb-2015 09:46:22">
+        <select from="886" to="886"/>
+        <scroll column="331" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
